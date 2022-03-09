@@ -23,39 +23,39 @@ export class DrumKitComponent implements OnInit {
     //console.log(ev.key);
     switch (ev.key) {
       case 'a':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/clap.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/clap.wav');
         this.buton1.nativeElement.classList.add('effect');
         break;
       case 's':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/hihat.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/hihat.wav');
         this.buton2.nativeElement.classList.add('effect');
         break;
       case 'd':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/kick.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/kick.wav');
         this.buton3.nativeElement.classList.add('effect');
         break;
       case 'f':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/openhat.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/openhat.wav');
         this.buton4.nativeElement.classList.add('effect');
         break;
       case 'g':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/boom.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/boom.wav');
         this.buton5.nativeElement.classList.add('effect');
         break;
       case 'h':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/ride.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/ride.wav');
         this.buton6.nativeElement.classList.add('effect');
         break;
       case 'j':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/snare.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/snare.wav');
         this.buton7.nativeElement.classList.add('effect');
         break;
       case 'k':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/tom.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/tom.wav');
         this.buton8.nativeElement.classList.add('effect');
         break;
       case 'l':
-        this.playWithKeyboard('../../assets/JS30-1.Proje/sounds/tink.wav');
+        this.playWithKeyboard('../../assets/drumkit/sounds/tink.wav');
         this.buton9.nativeElement.classList.add('effect');
         break;
     }
